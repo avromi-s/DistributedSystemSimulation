@@ -19,5 +19,5 @@ For the simulation, we make use of two job types, namely type A and B. On startu
 -   On the Client and Slave applications, enter the IP address where the Master application is running:
     -   If you are running both applications on the same computer, use `127.0.0.1`
     -   If the applications are running on different networks, port forwarding will need to be configured on the *Master* application's network to forward all incoming traffic for port `30000` and `30001` to the local machine that is running the Master application
--   Connect the Slave applications to the Master
+-   Connect the Slave application(s) to the Master
 -   Send job requests to the Master from the Client application(s)
