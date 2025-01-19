@@ -34,3 +34,6 @@ _For the simulation, we make use of two job types - type A and B. On startup, ea
 | Master application   | <img width="437" alt="master-application-running" src="https://github.com/user-attachments/assets/826e2a78-14f4-4bd2-80ff-efe0204099ac" />  |
 | Slave application  | <img width="438" alt="slave-application-running" src="https://github.com/user-attachments/assets/deec243a-3b4b-4324-9a40-0ab7c8328d41" /> |
 | Client application   | <img width="437" alt="client-application-running" src="https://github.com/user-attachments/assets/edbb4cb3-eaa9-48f7-9e3f-1aa025487843" /> |
+
+## Socket communication
+All communication done in this simulation follows a custom protocol similar to TCP, as demoed in this [repo](https://github.com/avromi-s/TCPSimulation-OperatingSystems). The version used here is slightly more built-out to support additional features, but the core is the same.
